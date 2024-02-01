@@ -18,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
+      <head>
+        <link rel="icon" href="/micon.png"></link>
+      </head>
       <body>
         <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
