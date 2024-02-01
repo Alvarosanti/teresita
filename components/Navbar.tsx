@@ -9,9 +9,9 @@ import ShoppingCartIcon from "./ShoppingCartIcon";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="bg-white p-2 fixed w-full z-10">
+    <nav className="bg-white p-2 fixed w-full z-30">
       <div className="container mx-auto flex items-center justify-between">
-        <Link href="/">
+        <Link href="/#home">
           <Image src="/ub2.png" alt="logo" width={80} height={32} />
         </Link>
         <ul className="hidden h-full gap-12 lg:flex">

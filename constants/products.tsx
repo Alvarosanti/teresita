@@ -33,3 +33,54 @@ export const promotions = [
     createdAt: "10/12/2023",
   },
 ];
+
+export const products = [
+  {
+    id: "0001",
+    title: "Producto 1",
+    desc: "Lorem ipsun",
+    price: "12",
+    category: "Parrillas",
+    image: "/phone.png",
+  },
+  {
+    id: "0002",
+    title: "Producto 2",
+    desc: "Lorem ipsun",
+    price: "13",
+    category: "Carnes",
+    image: "/phone.png",
+  },
+  {
+    id: "0003",
+    title: "Producto 3",
+    desc: "Lorem ipsun",
+    price: "14",
+    category: "Mixtos",
+    image: "/phone.png",
+  },
+  {
+    id: "0004",
+    title: "Producto 4",
+    desc: "Lorem ipsun",
+    price: "14",
+    category: "Panes",
+    image: "/phone.png",
+  },
+  {
+    id: "0005",
+    title: "Producto 5",
+    desc: "Lorem ipsun",
+    price: "14",
+    category: "Tomahawks",
+    image: "/phone.png",
+  },
+  {
+    id: "0006",
+    title: "Producto 6",
+    desc: "Lorem ipsun",
+    price: "14",
+    category: "Guarniciones",
+    image: "/phone.png",
+  },
+];

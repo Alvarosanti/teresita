@@ -26,7 +26,7 @@ const Promotions = () => {
         <div className="mx-auto max-w-[1000px] padding-container relative w-auto flex justify-end">
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
             {promotions.map((product) => (
-              <Link href={`/products/promotion/${product.id}`} key={product.id}>
+              <Link href={`/menucard/promotion/${product.id}`} key={product.id}>
                 <div key={product.id}>
                   <Image
                     src={product.image}

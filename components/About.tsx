@@ -1,13 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
   return (
-    <section className="container mx-auto max-w-[1000px] py-20 flex flex-col md:flex-row items-center px-4">
-      <div className="w-full md:w-1/2 md:pr-10 mx-6 md:mx-0">
-        <h2 className="text-4xl font-bold mb-4">
-          Historia de Teresita
-        </h2>
+    <section
+      id="about"
+      className="container mx-auto max-w-[1000px] py-20 flex flex-col md:flex-row items-center px-4 pb-40"
+    >
+      <div className="w-full md:w-1/2 md:pr-10 mx-6 md:mx-0 pb-2">
+        <h2 className="text-4xl font-bold mb-4">Historia de Teresita</h2>
         <p className="text-gray-700 mb-6 text-justify">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum
@@ -18,9 +20,12 @@ const About = () => {
           adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua.
         </p>
-        <button className="bg-blue-500 text-white py-2 px-4 rounded">
+        <Link
+          href={"/about"}
+          className="bg-blue-500 text-white py-2 px-4 rounded"
+        >
           Leer más
-        </button>
+        </Link>
       </div>
       <div className="w-full md:w-1/2">
         <Image
